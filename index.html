@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+        <span class="red">P</span>ortfolio
+        </a>
+        
+        <i class="fa-solid fa-bars" id="menu"></i>
+        <nav class="navbar">
+            <a href="#home" class="Active">Home</a>
+            <a href="#about" >About</a>
+            <a href="#skills" >Skills</a>
+            <a href="#project" >Projects</a>
+            <a href="#certificate" >Certificates</a>
+            <a href="#contact" >Contact</a>
+        </nav>
+
+
+
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, I'm</h3>
+            <h1>Abhijit Kobarne</h1>
+            <h3>And I'm <span id="typing"></span></h3>
+            <p>Hi! I’m Abhijit, a passionate in Artificial Intelligence and Data Science at Pravara Rural Engineering College, Loni.</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/abhijit-kobarne-a90b5436a/"><i class="fa-brands fa-square-linkedin"></i></a>
+                <a href="https://github.com/abhijitkobarne143"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/abhii_ak_001?igsh=OW1vN3ZuaHc4Ymtp"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/abhijit.kobarne.9"><i class="fa-brands fa-facebook"></i></a>
+
+            </div>
+            <a href="photos/Abhijit_Kobarne_Resume.pdf" download class="btnResume">Download CV</a>
+            </div>
+        <div class="home-image">
+            <img src="photos/abhi.png" alt="">
+        </div>
+        
+    </section>
+
+    <!-- About section -->
+    <div class="about" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="photos/developer.png" alt="Developer Image">
+            </div>
+            <div class="about-col-2">
+                <h1 class="color-About">About Me</h1>
+                <p>
+                I am a passionate Front-End Web Developer with a strong interest in creating clean, responsive, and user-friendly websites. 
+                I enjoy turning ideas into real-world web experiences using modern web technologies.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Experience', this)">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education', this)">Education</p>
+
+                </div>
+                <div class="tab-contents active-tab" id="Experience">
+                        <ul>
+                            <li><span>2nd-year Engineering student</span></li>
+                            <li><span>Front-End Web Developer (Learner)</span></li>
+                            <li><span>Built responsive web projects</span></li>
+                        <ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                        <ul>
+                            <li class="color-year">
+                                <span class="year">2026</span><br>
+                                BE (AI & DS) – Pravara Rural Engineering College, Loni
+                            </li>
+
+                            <li>
+                                <span class="year">2024</span><br>
+                                HSC – 66.33%<br>
+                                Shri Shanishwar Junior College, Sonai
+                                 </li>
+
+                                <li>
+                                <span class="year">2022</span><br>
+                                SSC – 83.00%<br>
+                                Adarsh Vidyalaya, Bramhani
+                            </li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -----------SKILLS----------- -->
+<div class="skills" id="skills">
+    <div class="container">
+        <h1 class="color-About">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <h1>🧠</h1>
+                    <h2>Programming Languages</h2>
+                      <ul>
+                        <li>Python</li>
+                        <li>C++ (Basics)</li>
+                        <li>MY SQL</li>
+                        <li>HTML,CSS,JavaScript(Web Development)</li>
+                      </ul>
+                </div>
+                <div>
+                    <h1>💻</h1>
+                    <h2>Development Tools & Platforms</h2>
+                      <ul>
+                        <li>VS Code</li>
+                        <li>Git & GitHub</li>
+                        <li>Linux/Ubantu</li>
+                        <li>MS EXCEL</li>
+                      </ul>
+                </div>
+                <div>
+                    <h1>🌐</h1>
+                    <h2>Soft Skills & Other Abilities</h2>
+                     <ul>
+                        <li>Adaptability & Quick Learning</li>
+                        <li>Critical Thinking & Decision Making</li>
+                        <li>Time Management & Prioritization</li>
+                        <li>Creativity & Learning new things</li>
+                     </ul>
+                </div>
+
+            </div>
+    </div>
+</div> 
+
+<!-- -----Projects----- -->
+
+<div class="project" id="project">
+    <h1 class="color-About pp">Projects</h1>
+<div class="projects-container">
+  <div class="project-card">
+    <div class="project-image">AMAZON CLONE</div>
+    <h3>Amazon Clone</h3>
+    <p>A responsive Amazon clone with product listings, cart system, and modern UI design.</p>
+    <div class="tags">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+    </div>
+    <div class="buttons">
+      <a href="https://github.com/abhijitkobarne143/amazon" class="btn github">GitHub</a>
+      <a href="https://abhijitkobarne143.github.io/amazon/" class="btn live">View Live</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <div class="project-image">CURRENCY CONVERTER</div>
+    <h3>Currency Converter</h3>
+    <p>A simple and responsive currency converter that converts values between different currencies using real-time exchange rates.</p>
+    <div class="tags">
+      <span>React</span>
+      <span>CSS</span>
+      <span>Firebase</span>
+    </div>
+    <div class="buttons">
+      <a href="https://github.com/abhijitkobarne143/currencyconverter" class="btn github">GitHub</a>
+      <a href="https://abhijitkobarne143.github.io/currencyconverter/" class="btn live">View Live</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <div class="project-image">ROCK PAPER SCISSORS</div>
+    <h3>Rock Paper Scissors Game</h3>
+    <p>An interactive Rock Paper Scissors game where users play against the computer with instant results and score tracking.</p>
+    <div class="tags">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+    </div>
+    <div class="buttons">
+      <a href="https://github.com/abhijitkobarne143/rockpaperscissors" class="btn github">GitHub</a>
+      <a href="https://abhijitkobarne143.github.io/rockpaperscissors/" class="btn live">View Live</a>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<!-- ---Certificates----- -->
+
+
+<div class="certificate" id="certificate">
+    <div class="container">
+        <h1 class="color-About CC">Certificates</h1>
+        <div class="work-list">
+            <div class="work">
+                <img Src="photos/FullStack_Certificate.png">
+                <div class="layer">
+                    <h3>Full Stack Certificate</h3>
+                    <p>Completed the Free Full Stack Developer Course from Simplilearn SkillUp, gaining foundational knowledge of front-end and back-end web development.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img Src="photos/YuvaAI_Certificate.png">
+                <div class="layer">
+                    <h3>Yuva AI Certificate</h3>
+                    <p>Completed the Free Full Stack Developer Course from Simplilearn SkillUp, gaining foundational knowledge of front-end and back-end web development.</p>
+                    <a href="https://media.licdn.com/dms/image/v2/D4D1FAQE__8cz0HQXuw/feedshare-document-images_480/B4DZtlDMpMHwAg-/1/1766926899457?e=1771459200&v=beta&t=WqGcokDE-y3iNGpomtHd8ZcffiIX3Zm_DKcw4Y8RYlM"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img Src="photos/DataAnalyst_Certificate.png">
+                <div class="layer">
+                    <h3>Data Analyst Certificate</h3>
+                    <p>Completed the Data Analyst 101 course by Microsoft (via Simplilearn SkillUp), gaining foundational knowledge in data analysis concepts and practices.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+         </div>
+        </div>
+        <a href="#" class="btnmore">See More</a>
+    </div>
+</div>
+
+<!-- ----Contact---- -->
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="color-About">Contact Me</h1>
+                    <p>
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=abhijitkobarne18@gmail.com" target="_blank">
+  <i class="fa-solid fa-paper-plane"></i>
+  abhijitkobarne18@gmail.com
+</a>
+
+
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-phone"></i>    9325903113
+                    </p>
+                </div>
+                <div class="contact-right">
+                    <form id="contactForm" action="https://formspree.io/f/xnjbavny"
+                        method="POST">
+                        <input type="text" id="name" name="Name" placeholder="Your Name" required>
+                        <input type="email" id="email" name="E-mail" placeholder="Your E-mail" required>
+                        <textarea id="message" name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btnResume submit">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+            
+        </div>
+        <div class="copyright">
+            <p>© 2026 PortfolioWebsite. made by <i class="fa-solid fa-heart"></i> Abhijit.
+</p>
+        </div>
+    </div>
+
+
+
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
+
+
